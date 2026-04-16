@@ -1,36 +1,3 @@
----
-layout: home
-
-hero:
-  name: "Pixometra"
-  text: "Framer Templates Documentation"
-  tagline: "Premium templates for modern teams
-  image:
-    src: /logo.svg
-    alt: Pixometra
-  actions:
-    - theme: brand
-      text: SYNTHEX Docs
-      link: /synthex/welcome
-    - theme: alt
-      text: GitHub
-      link: https://github.com/pixometra
-
-features:
-  - icon: 🤖
-    title: SYNTHEX
-    details: "AI Automation Agency template. 12 pages, 7 CMS collections, 43+ components."
-    link: /synthex/welcome
-  - icon: 🚀
-    title: Ready to Deploy
-    details: "Production-ready with design system, components, and best practices."
-    link: /synthex/duplicate
-  - icon: 📚
-    title: Complete Guides
-    details: "Step-by-step documentation for setup, customization, and publishing."
-    link: /synthex/welcome
----
-
 ## Welcome to Pixometra Documentation
 
 Central hub for all **Pixometra Framer templates** documentation.
@@ -79,5 +46,3 @@ Stay tuned for additional Pixometra Framer templates!
 
 **Made by Pixometra** ❤️  
 Building premium Framer templates for agencies and enterprises.
-
-[GitHub](https://github.com/pixometra) | [Website](https://pixometra.com)

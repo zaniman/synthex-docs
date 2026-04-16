@@ -20,7 +20,17 @@
       "mcp__Control_Chrome__get_current_tab",
       "mcp__Control_Chrome__get_page_content",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git commit -m 'Initial documentation setup: SYNTHEX documentation structure with VitePress:*)",
+      "Bash(git commit -m 'Improve color card contrast and readability:*)",
+      "Bash(git commit -m 'Update header and layout styling:*)",
+      "Bash(git commit -m 'Simplify color cards - minimal design:*)",
+      "Bash(git commit -m 'Fix layout and navigation issues:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)"
     ]
   }
 }
