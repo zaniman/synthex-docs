@@ -54,9 +54,9 @@ The new item is now live (on next publish).
 
 Learn details about each collection:
 
-- [Blog Collection](/synthex/cms-blog)
-- [Cases Collection](/synthex/cms-cases)
-- [Career Collection](/synthex/cms-career)
-- [Legal Collection](/synthex/cms-legal)
-- [Pricing Collection](/synthex/cms-pricing)
-- [How to Edit CMS Content](/synthex/cms-edit)
+- [Blog Collection](/synthex/guide/cms-blog)
+- [Cases Collection](/synthex/guide/cms-cases)
+- [Career Collection](/synthex/guide/cms-career)
+- [Legal Collection](/synthex/guide/cms-legal)
+- [Pricing Collection](/synthex/guide/cms-pricing)
+- [How to Edit CMS Content](/synthex/guide/cms-edit)

@@ -92,4 +92,4 @@ Editing component internals breaks them. Always use the property controls in the
 
 For dynamic content management, check out:
 
-→ [CMS Collections](/synthex/cms-overview)
+→ [CMS Collections](/synthex/guide/cms-overview)

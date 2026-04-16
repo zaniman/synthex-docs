@@ -37,4 +37,4 @@ All changes are independent from the original template. Your copy won't be affec
 
 Once duplicated, you'll work entirely in Framer's editor. Read the next section to learn Framer basics:
 
-→ [Framer Basics](/synthex/framer-basics)
+→ [Framer Basics](/synthex/guide/framer-basics)

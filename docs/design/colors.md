@@ -176,4 +176,4 @@ Test your color changes on both light and dark modes before publishing.
 
 ## Next Steps
 
-→ [Typography](/synthex/typography)
+→ [Typography](/synthex/design/typography)

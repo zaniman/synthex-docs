@@ -178,4 +178,4 @@ To add a new text style (if needed):
 
 Your design system is now fully customized! Time to explore the components:
 
-→ [Terminal Dashboard Component](/synthex/terminal)
+→ [Terminal Dashboard Component](/synthex/components/terminal)

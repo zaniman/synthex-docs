@@ -92,4 +92,4 @@ Framer **automatically** provisions a free SSL certificate via Let's Encrypt.
 
 ## Next Steps
 
-→ [SEO Settings](/synthex/seo)
+→ [SEO Settings](/synthex/guide/seo)

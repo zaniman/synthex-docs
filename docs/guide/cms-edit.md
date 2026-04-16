@@ -135,4 +135,4 @@ For large imports of content (many blog posts at once), consider:
 
 Now that you can edit CMS content, let's customize your design:
 
-→ [Design System - Colors](/synthex/colors)
+→ [Design System - Colors](/synthex/design/colors)

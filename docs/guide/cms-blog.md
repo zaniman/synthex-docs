@@ -68,6 +68,6 @@ Once saved, a new page is created at `/blog/:slug` with:
 
 ## Next Steps
 
-→ [Blog Authors Collection](/synthex/cms-overview)
+→ [Blog Authors Collection](/synthex/guide/cms-overview)
 
-→ [Blog Categories Collection](/synthex/cms-overview)
+→ [Blog Categories Collection](/synthex/guide/cms-overview)

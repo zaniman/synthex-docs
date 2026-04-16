@@ -58,4 +58,4 @@ SYNTHEX comes with a complete design system:
 
 ## Next Steps
 
-Ready to start building? Let's [Duplicate the Template →](/synthex/duplicate)
+Ready to start building? Let's [Duplicate the Template →](/synthex/guide/duplicate)

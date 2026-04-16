@@ -81,6 +81,6 @@ Publishing takes 30–60 seconds. Refresh the URL after publishing to see your l
 
 ## Next Steps
 
-→ [Connect a Custom Domain](/synthex/domain)
+→ [Connect a Custom Domain](/synthex/guide/domain)
 
-→ [SEO Settings](/synthex/seo)
+→ [SEO Settings](/synthex/guide/seo)

@@ -27,9 +27,9 @@ Stay tuned for additional Pixometra Framer templates!
 ## Quick Start
 
 1. **[Visit SYNTHEX Docs](/synthex/welcome)** — Overview of what's included
-2. **[Duplicate the Template](/synthex/duplicate)** — Copy to your Framer workspace
-3. **[Start Customizing](/synthex/framer-basics)** — Learn Framer basics
-4. **[Publish Your Site](/synthex/publish)** — Deploy live
+2. **[Duplicate the Template](/synthex/guide/duplicate)** — Copy to your Framer workspace
+3. **[Start Customizing](/synthex/guide/framer-basics)** — Learn Framer basics
+4. **[Publish Your Site](/synthex/guide/publish)** — Deploy live
 
 ## Documentation Structure
 

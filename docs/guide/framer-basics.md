@@ -84,4 +84,4 @@ Drag a component onto the canvas to insert it.
 
 Now that you understand the Framer editor, let's explore the pages:
 
-→ [Pages Overview](/synthex/pages-overview)
+→ [Pages Overview](/synthex/guide/pages-overview)

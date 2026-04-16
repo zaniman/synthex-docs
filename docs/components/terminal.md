@@ -329,6 +329,6 @@ Layout: Equal halves
 
 ## Next Steps
 
-→ [ROI Calculator](/synthex/roi-calculator)
+→ [ROI Calculator](/synthex/components/roi-calculator)
 
-→ [404 Game](/synthex/404-game)
+→ [404 Game](/synthex/components/404-game)

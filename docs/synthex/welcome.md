@@ -29,7 +29,7 @@ See SYNTHEX in action:
 
 ## Next Steps
 
-Ready to get started? Jump to [Duplicate the Template →](/synthex/duplicate)
+Ready to get started? Jump to [Duplicate the Template →](/synthex/guide/duplicate)
 
 ---
 

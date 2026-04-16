@@ -227,6 +227,6 @@ These require custom modifications. Contact support for advanced game modes.
 
 ## Next Steps
 
-→ [Terminal Image](/synthex/terminal-image)
+→ [Terminal Image](/synthex/components/terminal-image)
 
-→ [Other Components](/synthex/other)
+→ [Other Components](/synthex/components/other)

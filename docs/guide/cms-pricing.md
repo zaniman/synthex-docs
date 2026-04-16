@@ -59,4 +59,4 @@ Features appear in the order they're created in the CMS. Reorder them by:
 
 ## Next Steps
 
-→ [How to Edit CMS Content](/synthex/cms-edit)
+→ [How to Edit CMS Content](/synthex/guide/cms-edit)

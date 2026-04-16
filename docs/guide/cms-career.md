@@ -83,4 +83,4 @@ Once saved, a new job page is created at `/career/:slug` with:
 
 ## Next Steps
 
-→ [Legal Collection](/synthex/cms-legal)
+→ [Legal Collection](/synthex/guide/cms-legal)

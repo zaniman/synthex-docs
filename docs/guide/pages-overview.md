@@ -48,4 +48,4 @@ Static pages like Homepage should be edited on the canvas, while repetitive cont
 
 Ready to edit content? Learn the techniques:
 
-→ [Editing Content](/synthex/editing-content)
+→ [Editing Content](/synthex/guide/editing-content)

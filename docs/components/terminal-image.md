@@ -212,4 +212,4 @@ All instances use the same design, so they stay consistent.
 
 ## Next Steps
 
-→ [Other Components](/synthex/other)
+→ [Other Components](/synthex/components/other)

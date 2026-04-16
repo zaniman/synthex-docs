@@ -78,4 +78,4 @@ Legal documents are automatically linked in the footer. No additional setup requ
 
 ## Next Steps
 
-→ [Pricing Collection](/synthex/cms-pricing)
+→ [Pricing Collection](/synthex/guide/cms-pricing)
