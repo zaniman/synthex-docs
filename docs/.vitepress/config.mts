@@ -77,6 +77,24 @@ export default defineConfig({
         }
       }
 
+      /* VitePress light mode class */
+      html.light a,
+      .light a {
+        color: #22aa00 !important;
+      }
+      html.light a:hover,
+      .light a:hover {
+        color: #1a8800 !important;
+      }
+
+      /* VitePress data attribute */
+      [data-theme="light"] a {
+        color: #22aa00 !important;
+      }
+      [data-theme="light"] a:hover {
+        color: #1a8800 !important;
+      }
+
       /* Global brand color for all links - dark theme default */
       a {
         color: #40ff43 !important;
