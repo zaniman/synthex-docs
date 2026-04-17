@@ -53,16 +53,28 @@ export default defineConfig({
       }
 
       /* Light theme - darker green for readability */
-      html.light {
-        --vp-c-brand: #22aa00 !important;
-        --vp-c-brand-0: #22aa00 !important;
-        --vp-c-brand-1: #22aa00 !important;
-        --vp-c-brand-2: #22aa00 !important;
-        --vp-c-brand-3: #22aa00 !important;
-        --vp-c-brand-light: #22aa00 !important;
-        --vp-c-brand-lighter: #22aa00 !important;
-        --vp-c-brand-dark: #1a8800 !important;
-        --vp-c-brand-darker: #1a8800 !important;
+      @media (prefers-color-scheme: light) {
+        :root {
+          --vp-c-brand: #22aa00 !important;
+          --vp-c-brand-0: #22aa00 !important;
+          --vp-c-brand-1: #22aa00 !important;
+          --vp-c-brand-2: #22aa00 !important;
+          --vp-c-brand-3: #22aa00 !important;
+          --vp-c-brand-light: #22aa00 !important;
+          --vp-c-brand-lighter: #22aa00 !important;
+          --vp-c-brand-dark: #1a8800 !important;
+          --vp-c-brand-darker: #1a8800 !important;
+        }
+
+        a {
+          color: #22aa00 !important;
+        }
+        a:hover {
+          color: #1a8800 !important;
+        }
+        a:visited {
+          color: #22aa00 !important;
+        }
       }
 
       /* Global brand color for all links - dark theme default */
@@ -74,17 +86,6 @@ export default defineConfig({
       }
       a:visited {
         color: #40ff43 !important;
-      }
-
-      /* Light theme links */
-      html.light a {
-        color: #22aa00 !important;
-      }
-      html.light a:hover {
-        color: #1a8800 !important;
-      }
-      html.light a:visited {
-        color: #22aa00 !important;
       }
 
       /* Table links */
