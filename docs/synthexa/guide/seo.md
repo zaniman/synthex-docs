@@ -168,4 +168,4 @@ Once your site is live with proper SEO:
 - **Build backlinks** — Share your content to attract incoming links
 - **Track analytics** — See what content resonates with visitors
 
-Your SYNTHEXA site is now fully optimized for search engines! 🚀
+Your SYNTHEXA site is now fully optimized for search engines!

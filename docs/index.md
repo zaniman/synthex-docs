@@ -2,7 +2,7 @@
 
 Central hub for all **Pixometra Framer templates** documentation.
 
-### 📦 Available Templates
+### Available Templates
 
 #### SYNTHEXA — AI Automation Agency (v1.0)
 Premium Framer template for automation agencies, SaaS platforms, and tech-forward businesses with retro-futuristic terminal aesthetic.

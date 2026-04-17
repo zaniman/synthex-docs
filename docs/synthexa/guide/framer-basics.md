@@ -2,7 +2,7 @@
 
 Key areas of the Framer editor you'll use to customize SYNTHEXA.
 
-## 🎨 Canvas
+## Canvas
 
 The main workspace where you see and interact with your website design.
 
@@ -11,7 +11,7 @@ The main workspace where you see and interact with your website design.
 - **Drag** to move or resize elements
 - **Right-click** for context menu
 
-## 📑 Pages Panel (Left Sidebar)
+## Pages Panel (Left Sidebar)
 
 Displays all pages in your project. Use this to navigate between:
 
@@ -20,7 +20,7 @@ Displays all pages in your project. Use this to navigate between:
 
 Click any page to open it for editing.
 
-## 📋 CMS Panel (Left Sidebar Tab)
+## CMS Panel (Left Sidebar Tab)
 
 Manage dynamic content without touching the design:
 
@@ -32,7 +32,7 @@ Manage dynamic content without touching the design:
 Create Authors and Categories BEFORE Blog posts, since blog posts reference them.
 :::
 
-## ⚙️ Properties Panel (Right Sidebar)
+## Properties Panel (Right Sidebar)
 
 When an element is selected, the Properties panel shows all editable settings:
 
@@ -44,7 +44,7 @@ When an element is selected, the Properties panel shows all editable settings:
 - **Effects** — Shadow, blur, opacity
 - **Component props** — For code/design components (e.g., Terminal Dashboard settings)
 
-## 🎨 Color Styles (Assets Panel)
+## Color Styles (Assets Panel)
 
 Design tokens that control colors across your entire site.
 
@@ -63,7 +63,7 @@ Design tokens that control colors across your entire site.
 Changing a color token updates EVERY element using it across the entire site instantly.
 :::
 
-## 📝 Text Styles (Assets Panel)
+## Text Styles (Assets Panel)
 
 Global typography definitions. Update once, change everywhere.
 
@@ -71,7 +71,7 @@ Global typography definitions. Update once, change everywhere.
 - `/Body/BodyRegular` — Standard body text
 - `/Mono/MonoRegular` — Terminal/UI labels
 
-## 🖼️ Components (Assets Panel)
+## Components (Assets Panel)
 
 Reusable design and code components. Click **Assets** → **Components** to browse:
 
