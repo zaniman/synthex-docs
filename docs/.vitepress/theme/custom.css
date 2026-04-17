@@ -39,13 +39,3 @@
     --vp-c-brand-3: #22aa00;
   }
 }
-
-/* Image zoom styling */
-img[data-zoomable] {
-  cursor: zoom-in;
-  transition: opacity 0.2s ease;
-}
-
-img[data-zoomable]:hover {
-  opacity: 0.8;
-}
