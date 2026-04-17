@@ -59,28 +59,28 @@ export default defineConfig({
     sidebar: {
       '/synthexa/': [
         {
-          text: '📚 Introduction',
+          text: 'Introduction',
           items: [
             { text: 'Welcome', link: '/synthexa/' },
             { text: 'What You Get', link: '/synthexa/guide/what-you-get' },
           ]
         },
         {
-          text: '🚀 Getting Started',
+          text: 'Getting Started',
           items: [
             { text: 'Duplicate the Template', link: '/synthexa/guide/duplicate' },
             { text: 'Framer Basics', link: '/synthexa/guide/framer-basics' },
           ]
         },
         {
-          text: '📄 Pages',
+          text: 'Pages',
           items: [
             { text: 'Pages Overview', link: '/synthexa/guide/pages-overview' },
             { text: 'Editing Content', link: '/synthexa/guide/editing-content' },
           ]
         },
         {
-          text: '🗂️ CMS Collections',
+          text: 'CMS Collections',
           items: [
             { text: 'Overview', link: '/synthexa/guide/cms-overview' },
             { text: 'Blog', link: '/synthexa/guide/cms-blog' },
@@ -92,14 +92,14 @@ export default defineConfig({
           ]
         },
         {
-          text: '🎨 Design System',
+          text: 'Design System',
           items: [
             { text: 'Colors', link: '/synthexa/design/colors' },
             { text: 'Typography', link: '/synthexa/design/typography' },
           ]
         },
         {
-          text: '📦 Components',
+          text: 'Components',
           items: [
             { text: 'Terminal Dashboard', link: '/synthexa/components/terminal' },
             { text: 'ROI Calculator', link: '/synthexa/components/roi-calculator' },
@@ -109,7 +109,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '📋 Publishing',
+          text: 'Publishing',
           items: [
             { text: 'Publish Your Site', link: '/synthexa/guide/publish' },
             { text: 'Connect Domain', link: '/synthexa/guide/domain' },
