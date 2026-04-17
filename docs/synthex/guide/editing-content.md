@@ -113,6 +113,33 @@ To modify the Light and Dark color schemes:
 Use color tokens strategically — keep dark mode readable with sufficient contrast, and ensure light mode isn't too harsh on the eyes.
 :::
 
+### Hiding the Theme Toggle Button
+
+If you want to remove the theme toggle from the navigation bar and let the theme automatically follow the user's OS settings:
+
+1. Go to **Assets** panel (top left)
+2. Click on **MainTemplate** component
+3. Find and select the **Navigation** component
+4. In the right sidebar, locate **Theme Switcher** setting
+5. Set it to **Off**
+
+The theme will now automatically switch based on the user's operating system preferences (Light or Dark mode).
+
+:::info
+When Theme Switcher is Off, visitors will see either Light or Dark theme based on their system settings. They won't have manual control to toggle themes.
+:::
+
+### Using Only One Theme
+
+If you want your site to use only one color theme (e.g., always Dark mode):
+
+1. Go to **Assets** → **Colors** in Framer
+2. For each color token, set the **Dark** and **Light** variants to the **same color**
+3. If you want Light mode only, copy your Light colors to the Dark slot
+4. If you want Dark mode only, copy your Dark colors to the Light slot
+
+Now your site will look identical regardless of system settings or theme preference.
+
 ## Next Steps
 
 For dynamic content management, check out:
