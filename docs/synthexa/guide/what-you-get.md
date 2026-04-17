@@ -50,7 +50,7 @@ SYNTHEXA includes **7 fully configured CMS collections** with sample data:
 
 Multi-panel data visualization widget that displays your metrics with an authentic retro aesthetic. Customize any metric name and values to showcase case success rates, cost savings, hours automated, or ROI impact.
 
-![Alt text](/images/guide/TerminalMain.png)
+![Terminal Dashboard](/images/guide/TerminalMain.png)
 
 Features include:
 
@@ -62,14 +62,22 @@ Features include:
 
 ### ROI Calculator ###
 
-Interactive slider-based tool for demonstrating client savings and automation benefits. Build your own calculation model:
+Interactive slider-based tool for demonstrating client savings and automation benefits.
+
+![ROI Calculator](/images/guide/calculator.png)
+
+Build your own calculation model:
 
 - Custom formulas — define exactly how your savings are calculated
 - Configurable parameters — set sliders, inputs, and multipliers to match your pricing
 - Live calculation display — visitors see real-time results as they adjust inputs
 - Customizable labels and descriptions for each metric
 
-**Retro Arcade Game** — 404 page engagement experience that keeps visitors entertained when they hit dead links.
+### Retro Arcade Game ###
+
+![Retro Arcade Game](/images/guide/game404.png)
+
+404 page engagement experience that keeps visitors entertained when they hit dead links.
 
 ## Design System
 

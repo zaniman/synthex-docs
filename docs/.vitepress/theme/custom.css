@@ -1,0 +1,41 @@
+/* Dark theme - bright neon green */
+:root {
+  --vp-c-brand: #40ff43;
+  --vp-c-brand-1: #40ff43;
+  --vp-c-brand-2: #40ff43;
+  --vp-c-brand-3: #40ff43;
+  --vp-c-brand-light: #40ff43;
+  --vp-c-brand-lighter: #40ff43;
+  --vp-c-brand-dark: #33cc34;
+  --vp-c-brand-darker: #33cc34;
+}
+
+/* Light theme - darker green for readability */
+:root.dark {
+  --vp-c-brand: #40ff43;
+  --vp-c-brand-1: #40ff43;
+  --vp-c-brand-2: #40ff43;
+  --vp-c-brand-3: #40ff43;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --vp-c-brand: #22aa00;
+    --vp-c-brand-1: #22aa00;
+    --vp-c-brand-2: #22aa00;
+    --vp-c-brand-3: #22aa00;
+    --vp-c-brand-light: #22aa00;
+    --vp-c-brand-lighter: #22aa00;
+    --vp-c-brand-dark: #1a8800;
+    --vp-c-brand-darker: #1a8800;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root.light {
+    --vp-c-brand: #22aa00;
+    --vp-c-brand-1: #22aa00;
+    --vp-c-brand-2: #22aa00;
+    --vp-c-brand-3: #22aa00;
+  }
+}
