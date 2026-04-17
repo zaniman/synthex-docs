@@ -88,6 +88,31 @@ Editing component internals breaks them. Always use the property controls in the
 - **Undo** — `Cmd+Z` (Mac) or `Ctrl+Z` (Windows)
 - **Redo** — `Cmd+Shift+Z` (Mac) or `Ctrl+Shift+Z` (Windows)
 
+## Switching Themes (Dark & Light Mode)
+
+SYNTHEX includes **Light and Dark color schemes** that users can toggle on your live site. This allows visitors to choose their preferred viewing experience.
+
+### How Users Switch Themes
+
+Your site visitors can toggle between Light and Dark modes using the **theme toggle button** in the navigation bar.
+
+![Theme Toggle Button](/images/guide/synthex-01.png)
+
+Simply click the toggle icon to switch between modes. The preference is saved in their browser, so they'll see their chosen theme each time they visit.
+
+### Customizing the Themes
+
+To modify the Light and Dark color schemes:
+
+1. **Go to Assets** → **Colors** in Framer
+2. Find color tokens like `Terminal/Primary`, `Background/Dark`, `Text/Light`
+3. Edit the colors for each theme variant
+4. Your site updates automatically — both light and dark versions reflect the changes
+
+:::tip
+Use color tokens strategically — keep dark mode readable with sufficient contrast, and ensure light mode isn't too harsh on the eyes.
+:::
+
 ## Next Steps
 
 For dynamic content management, check out:

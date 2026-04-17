@@ -2,34 +2,47 @@
 
 A complete, **production-ready Framer project** you can duplicate, edit, and publish as your own agency website.
 
-## 📄 Pages Included
+## 📄 Pages Included (9 Pages + Dynamic Routes)
 
 | Page | URL | Description |
 |------|-----|-------------|
-| **Homepage** | `/` | Hero with Terminal Dashboard, services, cases, blog preview, ROI calculator, and CTA. |
-| **About** | `/about` | Agency story, team, values, and company metrics. |
-| **Cases** | `/cases` | Portfolio grid powered by Cases CMS. |
-| **Case Page** | `/cases/:slug` | Auto-generated for each Cases item. |
-| **Blog** | `/blog` | Article listing with category filtering. |
-| **Blog Post** | `/blog/:slug` | Auto-generated for each Blog item. |
-| **Career** | `/career` | Open positions listing powered by Open Roles CMS. |
-| **Job Page** | `/career/:slug` | Auto-generated for each Open Role item. |
-| **Pricing** | `/pricing` | Plans with feature comparison table. |
-| **Contact** | `/contact` | Contact form and agency details. |
-| **Legal** | `/legal/:slug` | Privacy Policy, Terms of Service, and additional legal pages. |
-| **404 Page** | `/404` | Interactive retro arcade game (NotFoundGame). |
+| **Homepage** | `/` | Hero with Terminal Dashboard, services overview, featured cases, blog preview, ROI calculator, and CTA. Showcases your automation work. |
+| **Pricing** | `/pricing` | Detailed feature comparison table across 3 service tiers. Easy to customize for your plans. |
+| **Cases** | `/cases` | Portfolio grid of client success stories powered by Cases CMS (9 case studies included). |
+| **Case Detail** | `/cases/:slug` | Auto-generated detail page for each case study with full metrics and testimonials. |
+| **Blog** | `/blog` | Article listing with category filtering. Includes 9 sample articles. |
+| **Blog Post** | `/blog/:slug` | Auto-generated detail page for each blog article. |
+| **Career** | `/career` | Open positions listing powered by Open Roles CMS. For recruiting new team members. |
+| **Job Detail** | `/career/:slug` | Auto-generated job detail page with application form. |
+| **About** | `/about` | Agency story, team members, values, and company metrics. |
+| **Contact** | `/contact` | Contact form and agency details. Connects to your email. |
+| **Legal Pages** | `/legal/:slug` | Auto-generated pages for Privacy Policy, Terms of Service, and other legal documents. |
+| **404 Page** | `/404` | Playable retro arcade game. Keeps visitors engaged when they hit dead links. |
 
 ## 🗂️ CMS Collections
 
-SYNTHEX includes 7 fully configured CMS collections:
+SYNTHEX includes **7 fully configured CMS collections** with sample data:
 
-- **Blog** — Articles with authors and categories
-- **Blog Authors** — Author profiles  
-- **Blog Categories** — Content filtering
-- **Cases** — Project portfolio
-- **Open Roles** — Job listings
-- **Pricing** — Feature comparison rows
-- **Legal** — Legal documents (Privacy, Terms, etc.)
+### Dynamic Collections
+- **Blog** (9 articles) — Articles with authors, categories, read time
+  - Authors: James Whitfield, Priya Nair, Natasha Osei, Sofia Andrade
+  - Categories: updates, finance, revenue ops, strategy, team ops
+  - Topics: automation ROI, data quality, CRM automation, and more
+
+- **Cases** (9 case studies) — Project portfolio with success metrics
+  - Companies: Acme Corp, Luckycharm, Biosynthesis, 45 Degrees, AsiaWave, Capsule, Chromatools, Clandestine, Hexsmith
+  - Includes: hours saved, cost reduction ($18.7K–$40K), success rate (98.7–100%)
+  - Testimonials with author names and positions
+
+- **Open Roles** — Job listings for recruiting page
+  - Includes: title, department, location, employment type
+
+### Supporting Collections
+- **Blog Authors** — Author profiles referenced by blog posts
+- **Blog Categories** (5 categories) — For blog filtering
+- **Pricing** (24 items) — Detailed feature comparison table across 3 plans
+  - Features include: workflows, integrations, support, SLA, documentation
+- **Legal** (5 pages) — Privacy Policy, Terms of Service, and additional pages
 
 ## 📦 Components
 

@@ -10,8 +10,8 @@ SYNTHEX is built around a **retro-futurist terminal aesthetic** — dark backgro
 
 **What's Included:**
 
-- **12 fully designed pages**
-- **7 CMS collections**  
+- **9 fully designed pages** + dynamic CMS routes
+- **7 CMS collections** with sample data (Blog, Cases, Pricing, Career, Legal, Authors, Categories)
 - **3 custom components** (Terminal Dashboard, ROI Calculator, 404 Game)
 - **Light & Dark color schemes** (users can toggle)
 
