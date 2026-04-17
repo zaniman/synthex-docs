@@ -19,33 +19,37 @@ SYNTHEXA is built around a **retro-futurist terminal aesthetic** — dark backgr
 
 In this documentation, you'll discover how to:
 
-✅ **Duplicate** the template to your Framer workspace  
-✅ **Understand** the page structure and CMS setup  
-✅ **Customize** colors, typography, and components  
-✅ **Manage content** through CMS collections (Blog, Cases, Career, etc.)  
-✅ **Publish** your site with a custom domain  
+- **Duplicate** the template to your Framer workspace
+- **Understand** the page structure and CMS setup
+- **Customize** colors, typography, and components
+- **Manage content** through CMS collections (Blog, Cases, Career, etc.)
+- **Publish** your site with a custom domain
 
 ## Get Started
 
-👉 **[Start with Duplication →](/synthexa/guide/duplicate)**
+[Start with Duplication →](/synthexa/guide/duplicate)
 
 ---
 
 ## Documentation Sections
 
-### 📚 **Introduction**
+### Introduction
+
 - [Welcome](/synthexa/) - You are here!
 - [What You Get](/synthexa/guide/what-you-get)
 
-### 🚀 **Getting Started**
+### Getting Started
+
 - [Duplicate the Template](/synthexa/guide/duplicate)
 - [Framer Basics](/synthexa/guide/framer-basics)
 
-### 📄 **Pages & Content**
+### Pages & Content
+
 - [Pages Overview](/synthexa/guide/pages-overview)
 - [Editing Content](/synthexa/guide/editing-content)
 
-### 🗂️ **CMS Collections**
+### CMS Collections
+
 - [CMS Overview](/synthexa/guide/cms-overview)
 - [Blog Collection](/synthexa/guide/cms-blog)
 - [Cases Collection](/synthexa/guide/cms-cases)
@@ -54,18 +58,21 @@ In this documentation, you'll discover how to:
 - [Pricing Table](/synthexa/guide/cms-pricing)
 - [How to Edit Items](/synthexa/guide/cms-edit)
 
-### 🎨 **Design System**
+### Design System
+
 - [Colors & Tokens](/synthexa/design/colors)
 - [Typography](/synthexa/design/typography)
 
-### 📦 **Custom Components**
+### Custom Components
+
 - [Terminal Dashboard](/synthexa/components/terminal)
 - [ROI Calculator](/synthexa/components/roi-calculator)
 - [404 Game](/synthexa/components/404-game)
 - [Terminal Image Frame](/synthexa/components/terminal-image)
 - [Other Components](/synthexa/components/other)
 
-### 📋 **Publishing & Deployment**
+### Publishing & Deployment
+
 - [Publish Your Site](/synthexa/guide/publish)
 - [Connect Custom Domain](/synthexa/guide/domain)
 - [SEO Settings](/synthexa/guide/seo)
@@ -74,6 +81,6 @@ In this documentation, you'll discover how to:
 
 ## Need Help?
 
-Each section includes step-by-step guides and tips. Start with **[Duplicate the Template](/synthexa/guide/duplicate)** if you're new to Framer!
+Each section includes step-by-step guides and tips. Start with [Duplicate the Template](/synthexa/guide/duplicate) if you're new to Framer.
 
-**Made by Pixometra** ❤️
+Made by Pixometra

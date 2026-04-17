@@ -2,29 +2,24 @@
 
 Key areas of the Framer editor you'll use to customize SYNTHEXA.
 
-## Canvas
-
-The main workspace where you see and interact with your website design.
-
-- **Single-click** to select an element
-- **Double-click** to edit text directly
-- **Drag** to move or resize elements
-- **Right-click** for context menu
-
 ## Pages Panel (Left Sidebar)
+
+![Pages](/images/guide/synthexa-06.png)
 
 Displays all pages in your project. Use this to navigate between:
 
 - Static pages (Homepage, About, Pricing, Contact, etc.)
-- CMS-driven pages (Blog post templates, Case templates, Job templates)
+- CMS-driven pages (Cases, Careers, Blog, Legal)
 
 Click any page to open it for editing.
 
-## CMS Panel (Left Sidebar Tab)
+## CMS Collections
+
+![CMS](/images/guide/synthexa-07.png)
 
 Manage dynamic content without touching the design:
 
-- **Create new entries** for Blog, Cases, Open Roles, Pricing, Legal
+- **Create new entries** for Blog, Cases, Careers, Pricing, Legal
 - **Edit existing items** — all connected pages auto-update
 - **Changes are live** after your next publish
 

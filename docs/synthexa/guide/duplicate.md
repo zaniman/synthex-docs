@@ -18,6 +18,8 @@ Framer will automatically create a copy of the project inside your workspace.
 
 Once the copy is created, the template will appear in your **Framer dashboard** as a new project.
 
+![SYNTHEXA Template Preview](/images/guide/synthexa-05.png)
+
 Open it to start editing.
 
 Your copy now includes:
@@ -42,9 +44,9 @@ Typical next steps include:
 - Setting up contact forms and job applications
 - Publishing to your custom domain
 
-**Tip:**
-
+:::tip
 The original template remains unchanged. Your copied version is fully independent, so you can edit it freely without affecting the original project.
+:::
 
 ## Next Steps
 

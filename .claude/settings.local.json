@@ -45,7 +45,13 @@
       "Bash(mv synthex-02.png synthexa-02.png)",
       "Bash(sed -i '' 's/synthex-01.png/synthexa-01.png/g' /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa/guide/editing-content.md)",
       "Bash(sed -i '' 's/synthex-02.png/synthexa-02.png/g' /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa/guide/editing-content.md)",
-      "WebFetch(domain:vitepress.dev)"
+      "WebFetch(domain:vitepress.dev)",
+      "Bash(find docs:*)",
+      "Bash(npm install:*)",
+      "Bash(git revert:*)",
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:www.notion.so)",
+      "mcp__Claude_in_Chrome__get_page_text"
     ]
   }
 }
