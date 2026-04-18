@@ -1,10 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
-import NavBar from './NavBar.vue'
+import Layout from './Layout.vue'
 import './custom.css'
 
 export default {
   extends: DefaultTheme,
-  components: {
-    VPNavBar: NavBar
-  }
+  Layout
 }
