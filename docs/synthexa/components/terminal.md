@@ -44,15 +44,15 @@ The TerminalDashboard is a **code component** that renders:
 
 ### Individual Panels
 
-Each Panel (1–6) has:
+Each Panel (1–6) has common properties:
 
 | Property | Type | Description |
 |----------|------|-------------|
-| **Type** | Enum | Terminal, Sparkline, Bars, Status, Metrics, Ring, SVG, None |
+| **Type** | Enum | Terminal, Bars, Ring, Sparkline, Status, SVG, None |
 | **Title** | String | Optional panel header |
-| **Size Mode** | Enum | Fill (stretch) or Fit (to content) |
-| **Opacity** | Slider | Panel opacity (0–1) |
-| **Panel Data** | Object | Data specific to panel type |
+| **Height** | Enum | Fill (stretch to available space), Fit (to content), or Fixed |
+
+**Panel-specific properties appear below based on the Type selected.**
 
 ## Panel Types
 
@@ -60,8 +60,15 @@ Each Panel (1–6) has:
 
 Animated typewriter with input/output lines.
 
-**Configuration:**
-- **Script** — Multiline text. Lines starting with `> ` render as input (Primary color), others as output (Secondary)
+| Property | Type | Description |
+|----------|------|-------------|
+| **Speed** | Slider | Animation speed (1 = normal, higher = faster) |
+| **Script** | Text | Multiline terminal script |
+| **Lines** | Array | Individual lines (auto-generated from Script) |
+
+**Script format:**
+- Lines starting with `> ` render as input (Primary color)
+- Other lines render as output (Secondary color)
 
 **Example:**
 ```
@@ -78,83 +85,79 @@ Automation complete // 4h saved this month
 
 Animated dual-line canvas chart for showing trends.
 
-**Configuration:**
-- **Primary data** — Array of numbers (0–100)
-- **Secondary data** — Array of numbers (0–100)
-- **Labels** — Legend for each line
+| Property | Type | Description |
+|----------|------|-------------|
+| **Sparklines** | Array | Collection of sparkline data series (max 2) |
 
-**Example:**
-```
-Primary: [20, 35, 50, 65, 80]
-Secondary: [30, 45, 40, 70, 75]
-```
+Each sparkline item contains:
+- **Label** — Legend label for the line
+- **Data** — Array of numbers (0–100) representing the trend
 
 ### Bars
 
 Animated horizontal bar chart for comparing percentages.
 
-**Configuration:**
-- **Items** — Array of {label, value} objects
-- **Value range** — Min/max scale
+| Property | Type | Description |
+|----------|------|-------------|
+| **Bars** | Array | Collection of bar items (max 6) |
 
-**Example:**
-```
-- Manual tasks: 15%
-- Automated tasks: 85%
-```
+Each bar item contains:
+- **Label** — Bar label
+- **Value** — Numeric value (0–100 for percentage display)
 
 ### Status
 
 Live status list with pulsing indicators.
 
-**Configuration:**
-- **Items** — Array of {label, state} objects
-- **States** — Active, Idle, Running, Error
+| Property | Type | Description |
+|----------|------|-------------|
+| **Status Items** | Array | Collection of status indicators (max 7) |
 
-**Example:**
-```
-- API Gateway: Active
-- Database: Active
-- Message Queue: Running
-- Backup Service: Idle
-```
+Each status item contains:
+- **Label** — Status label
+- **State** — Status state (Active, Idle, Running, Error)
 
 ### Metrics
 
-Key metric tiles with label + value. Supports up to 6 items.
+Key metric tiles with label + value.
 
-**Configuration:**
-- **Items** — Array of {label, value} objects
+| Property | Type | Description |
+|----------|------|-------------|
+| **Metrics** | Array | Collection of metric items (max 6) |
+| **Columns** | Slider | Number of columns (1–3) for layout |
 
-**Example:**
-```
-- Processes running: 247
-- Errors this week: 3
-- Uptime: 99.97%
-```
+Each metric item contains:
+- **Label** — Metric label (e.g., "Processes running")
+- **Value** — Metric value (e.g., "247" or "99.97%")
 
 ### Ring
 
 Animated circular gauge. Single and Dual mode.
 
-**Configuration:**
-- **Single mode** — One percentage value
-- **Dual mode** — Two values on concentric rings
-- **Value** — 0–100
-
-**Example:**
-```
-Value: 78
-Label: "Capacity"
-```
+| Property | Type | Description |
+|----------|------|-------------|
+| **Ring Mode** | Enum | Single (one ring) or Dual (two concentric rings) |
+| **Ring 1 %** | Slider | First ring percentage (0–100) |
+| **Ring 1 Label** | Text | Label for first ring |
+| **Ring 2 %** | Slider | Second ring percentage (0–100, Dual mode only) |
+| **Ring 2 Label** | Text | Label for second ring (Dual mode only) |
 
 ### SVG
 
-Paste any SVG code. Accent color (Primary) is applied automatically.
+Render custom SVG graphics with optional color theming.
 
-**Configuration:**
-- **SVG Code** — Raw SVG markup
-- **Accent applied** — Primary color tints the SVG
+| Property | Type | Description |
+|----------|------|-------------|
+| **SVG Code** | Text | Raw SVG markup |
+| **Apply Color** | Toggle | Apply Primary color accent to SVG |
+| **Scale** | Slider | SVG scale factor (0.5–2) |
+| **Padding** | Slider | Padding around SVG (0–32px) |
+
+**Tips:**
+- Paste complete `<svg>` tags into SVG Code
+- Enable "Apply Color" to tint the SVG with the Primary token color
+- Use Scale to resize the SVG within the panel
+- Padding adds space around the SVG content
 
 ### None
 
