@@ -42,6 +42,24 @@ Click the **Save** button. Your entry is now in the CMS.
 
 Go to the top-right of Framer and click **Publish**. Your new CMS entry is now live.
 
+## Duplicating an Entry (Quick Copy)
+
+Instead of creating from scratch, you can duplicate an existing entry to save time — especially useful when items have similar fields:
+
+1. **Open CMS panel** → select collection
+2. **Right-click** the item you want to copy
+3. Select **Duplicate** from the menu
+4. A new item is created with all the same fields filled in
+5. **Edit the fields** that need to be different (title, content, etc.)
+6. Click **Save**
+7. **Publish** to make it live
+
+**When to use Duplicate:**
+- Creating similar blog posts with the same structure
+- Adding multiple job openings with similar descriptions
+- Creating case studies with consistent formatting
+- Adding pricing features with similar configurations
+
 ## Editing an Existing Entry
 
 ### Step 1: Open the CMS Panel
