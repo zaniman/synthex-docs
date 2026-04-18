@@ -30,13 +30,25 @@ export default defineConfig({
       .markdown-body img {
         max-width: 600px;
       }
-      /* 2x images - initial CSS prevents flash, JS sets exact size */
-      img[src*="@2x"] {
-        max-width: min(50%, 600px);
-        height: auto;
-      }
+      /* 2x images handled via srcset in markdown plugin */
     `]
   ],
+
+  markdown: {
+    config: (md) => {
+      const defaultRender = md.renderer.rules.image || function(tokens, idx, options, env, self) {
+        return self.renderToken(tokens, idx, options)
+      }
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const src = token.attrGet('src')
+        if (src && src.includes('@2x')) {
+          token.attrSet('srcset', `${src} 2x`)
+        }
+        return defaultRender(tokens, idx, options, env, self)
+      }
+    }
+  },
 
   themeConfig: {
     siteTitle: 'Pixometra Docs',
