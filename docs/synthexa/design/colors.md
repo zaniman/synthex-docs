@@ -286,7 +286,16 @@ In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between l
 - `/Text/TextPrimary`
 - `/Text/TextSecondary`
 - `/Text/TextMuted`
+- `/Text/TextInverse`
+- `/Text/TextOnColorPrimary`
+- `/Text/TextOnColorSecondary`
 - `/Text/TextError`
+
+### Others Group
+- `/Others/LightSubtle`
+- `/Others/LightStrong`
+- `/Others/ShadowSubtle`
+- `/Others/ShadowStrong`
 
 ## Next Steps
 
