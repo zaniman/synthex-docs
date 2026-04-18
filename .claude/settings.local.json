@@ -51,7 +51,8 @@
       "Bash(git revert:*)",
       "Bash(npm uninstall:*)",
       "WebFetch(domain:www.notion.so)",
-      "mcp__Claude_in_Chrome__get_page_text"
+      "mcp__Claude_in_Chrome__get_page_text",
+      "Bash(git rm *)"
     ]
   }
 }

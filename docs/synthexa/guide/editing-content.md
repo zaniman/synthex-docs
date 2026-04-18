@@ -48,10 +48,11 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 ![Text Style Edit](/images/guide/synthexa-14.png)
 
 2. In the **Layers panel**, you will see the **Navigation** and **Footer** components
-3. To edit them, select the component in the layers and click **Edit Component** in the right Properties panel
-   - Alternatively, you can **double-click** the component directly on the canvas
 
 ![Text Style Edit](/images/guide/synthexa-15.png)
+
+3. To edit them, select the component in the layers and click **Edit Component** in the right Properties panel
+   - Alternatively, you can **double-click** the component directly on the canvas
 
 ### Hero Sections  
 - Edit headline and subheadline with double-click
