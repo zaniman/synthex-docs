@@ -39,14 +39,7 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
-      /* 2x resolution images - display at logical size, max 600px */
-      .vp-doc img[src*="@2x"],
-      .vp-doc p img[src*="@2x"],
-      .vp-doc div img[src*="@2x"] {
-        width: min(50%, 600px) !important;
-        height: auto !important;
-        max-width: 100% !important;
-      }
+      /* 2x images are sized via JavaScript in theme/index.js */
     `]
   ],
 
