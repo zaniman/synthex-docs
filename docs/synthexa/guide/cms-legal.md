@@ -26,7 +26,17 @@ Create at least these two:
 **Content:** Your privacy policy text
 
 :::warning
-Replace `legal@synthexa.com` with your actual email address before publishing.
+**Update email address before publishing:**
+
+The Privacy Policy contains a link to `legal@synthexa.com`. Replace it with your actual email:
+
+1. In the Content rich text editor, **select the email address** text (legal@synthexa.com)
+2. Click the **Link** button (chain icon) in the toolbar
+3. In the "Link To" field, enter: `mailto:your-email@yourdomain.com`
+4. Click outside or confirm to apply the link
+5. Save the document
+
+The email will now appear as a clickable mailto link that opens the user's email client.
 :::
 
 ### 2. Terms of Service
