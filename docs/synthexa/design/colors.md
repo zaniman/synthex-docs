@@ -256,6 +256,8 @@ When choosing colors, consider:
 
 :::tip
 Test your color changes on both light and dark modes before publishing.
+
+In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between light and dark theme preview while you edit.
 :::
 
 ## All Color Tokens Reference
