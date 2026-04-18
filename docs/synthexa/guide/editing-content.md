@@ -84,6 +84,26 @@ Footer links are text elements, not components. To edit them:
 
 ![Footer Links](/images/guide/synthexa-17.png)
 
+### Logo
+
+To replace the SYNTHEXA logo with your own:
+
+1. In the left sidebar, click **Assets** → **Components** → **Navigation** → **Logo**
+2. Switch to the **Layers** tab in the left panel
+3. In the layers tree, find and select **Default** > **Vector**
+4. Open the **Properties panel** (right sidebar)
+5. Locate the **Logo** section (labeled as **Vector Set**) and click **Edit**
+6. Inside the Vector Set, you can:
+   - Replace the existing Synthexa text/logo with your own SVG logo
+   - Or create a new vector and insert your custom SVG logo
+
+**Logo best practices:**
+- **Size** — Keep your logo **20px in height** to maintain layout consistency
+- **Theme colors** — Assign color tokens so the logo color changes with themes:
+  - Use **TextPrimary** token for text elements
+  - Use **BrandPrimary** token for icon/symbol elements
+  - This ensures your logo adapts automatically to Light and Dark modes
+
 ### Hero Sections  
 - Edit headline and subheadline with double-click
 - Adjust CTA buttons text and icons
@@ -104,7 +124,7 @@ Footer links are text elements, not components. To edit them:
 
 ## Using Component Properties
 
-For components like **Terminal Dashboard**, **ROI Calculator**, etc., don't edit the internals. Instead:
+For components like **TerminalDashboard**, **ROICalculator**, etc., don't edit the internals. Instead:
 
 1. **Click the component** (single-click to select the whole component)
 2. Open **Properties panel** (right sidebar)
