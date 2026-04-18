@@ -54,7 +54,12 @@
       "mcp__Claude_in_Chrome__get_page_text",
       "Bash(git rm *)",
       "Bash(identify /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/images/guide/synthexa-39.png)",
-      "Bash(find /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs -name \"*.md\" -type f -exec grep -l \"synthexa-[0-9]*.png\" {} \\\\;)"
+      "Bash(find /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs -name \"*.md\" -type f -exec grep -l \"synthexa-[0-9]*.png\" {} \\\\;)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/images/guide/synthexa-02@2x.png)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs commit -m 'Add synthexa-02@2x.png as temporary placeholder *)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts docs/.vitepress/theme/index.js)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs commit -m ' *)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts)"
     ]
   }
 }
