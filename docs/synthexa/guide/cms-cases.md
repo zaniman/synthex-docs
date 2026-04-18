@@ -29,13 +29,6 @@ The Cases collection powers your `/cases` portfolio page and case study detail p
 | **KPI 4 Label** | String | Description of fourth metric (e.g., "Success rate") |
 | **KPI 4 Value** | String | Numeric value with optional percentage (e.g., "99.5 %") |
 
-### Case Content
-| Field | Type | Notes |
-|-------|------|-------|
-| **Challenge** | Rich Text | Describe the business problem before automation |
-| **Solution** | Rich Text | Explain how the company solved the problem |
-| **Case Story** | Rich Text | Full editorial case narrative with structured headings |
-
 ### Testimonial Section
 | Field | Type | Notes |
 |-------|------|-------|
@@ -45,6 +38,13 @@ The Cases collection powers your `/cases` portfolio page and case study detail p
 | **Person Name** | String | Name of the testimonial author |
 | **Person Role** | String | Job title of the testimonial author |
 
+### Case Content
+| Field | Type | Notes |
+|-------|------|-------|
+| **Challenge** | Rich Text | Describe the business problem before automation |
+| **Solution** | Rich Text | Explain how the company solved the problem |
+| **Case Story** | Rich Text | Full editorial case narrative with structured headings |
+
 ### Metadata
 | Field | Type | Notes |
 |-------|------|-------|
@@ -52,19 +52,32 @@ The Cases collection powers your `/cases` portfolio page and case study detail p
 
 ## Terminal Snapshot Setup
 
-The Terminal Snapshot field displays a branded terminal component showing company info. To set it up:
+The Terminal Snapshot field displays a branded terminal component showing company info.
 
-1. Click **Edit Component** (if you don't have a terminal yet)
-2. Duplicate an existing variant or create a new one
-3. Update company logo, profile text, and metrics inside the terminal
-4. Return here and select it from the list
+**To add a terminal snapshot:**
 
-**Key fields in terminal:**
-- Company logo (20px height recommended)
-- Company name and profile
-- Industry, team size, founded date
-- Connected tools count
-- Deployment time
+1. Click the **+Insert** button in the Terminal Snapshot rich text field
+2. In the popup window, navigate to **Terminal** > **TerminalCases** and select the component
+3. Once added to the editor, click on the terminal component
+4. In the popup menu, select the company variant (e.g., "AcmeCorpCase", "LuckycharmCase")
+5. The variant displays with pre-configured company info, metrics, and branding
+
+**Creating new terminal variants:**
+
+If you need a new company variant:
+
+1. Go to **Assets** → **Components** → **Terminal** → **TerminalCases** 
+2. Click **Edit Component** to open the TerminalCases component
+3. Duplicate an existing case variant (e.g., AcmeCorpCase)
+4. Rename it to match your company (e.g., "YourCompanyCase")
+5. Update inside the variant:
+   - Company logo (20px height recommended)
+   - Company name and profile text
+   - Industry, team size, founded date
+   - Key metrics and values
+   - Connected tools count
+   - Deployment time
+6. Save and return to the CMS — your new variant now appears in the dropdown
 
 ## Example Case Study
 
