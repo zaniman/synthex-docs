@@ -1,8 +1,9 @@
 <template>
   <DefaultLayout>
-    <template #nav-bar-content-before>
-      <div class="wip-banner">
-        📝 Documentation in Progress — may contain inaccuracies.
+    <template #aside-top>
+      <div class="wip-banner-aside">
+        <div class="banner-label">📝 WIP</div>
+        <div class="banner-text">Documentation in Progress</div>
       </div>
     </template>
   </DefaultLayout>
@@ -14,24 +15,35 @@ const DefaultLayout = DefaultTheme.Layout
 </script>
 
 <style>
-.wip-banner {
+.wip-banner-aside {
   background-color: #fef9c3;
   border: 1px solid #fde047;
-  border-radius: 6px;
-  color: #854d0e;
-  padding: 6px 12px;
-  font-size: 12px;
-  white-space: nowrap;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  margin-left: 12px;
-  margin-right: 12px;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.dark .wip-banner {
+.banner-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #854d0e;
+  margin-bottom: 6px;
+}
+
+.banner-text {
+  font-size: 11px;
+  color: #854d0e;
+  line-height: 1.4;
+}
+
+.dark .wip-banner-aside {
   background-color: #2d2600;
   border-color: #713f12;
+}
+
+.dark .banner-label,
+.dark .banner-text {
   color: #fde68a;
 }
 </style>
