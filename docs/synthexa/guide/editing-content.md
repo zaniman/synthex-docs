@@ -15,7 +15,7 @@ Changes appear instantly on the canvas.
 
 ### Method 2: Properties Panel
 
-![Text Edit Properties](/images/guide/synthexa-12.png)
+![Text Edit Properties](/images/guide/synthexa-12@2x.png)
 
 1. **Click** the text element (single-click)
 2. Open the **Properties panel** (right sidebar)
@@ -26,7 +26,7 @@ Changes appear instantly on the canvas.
 
 All text in SYNTHEXA uses **global Text Styles**. 
 
-![Text Style Edit](/images/guide/synthexa-13.png)
+![Text Style Edit](/images/guide/synthexa-13@2x.png)
 
 **To update a style:**
 1. Go to **Assets** → **Text Styles**
@@ -45,11 +45,11 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 
 1. Go to **Assets** → **Templates** → **MainTemplates**
 
-![Text Style Edit](/images/guide/synthexa-14.png)
+![Text Style Edit](/images/guide/synthexa-14@2x.png)
 
 2. In the **Layers panel**, you will see the **Navigation** and **Footer** components
 
-![Text Style Edit](/images/guide/synthexa-15.png)
+![Text Style Edit](/images/guide/synthexa-15@2x.png)
 
 3. To edit them, select the component in the layers and click **Edit Component** in the right Properties panel
    - Alternatively, you can **double-click** the component directly on the canvas
@@ -66,7 +66,7 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 - In the Properties panel, find the **Label** field.
 - Edit the text to change the menu item name.
 
-![Edit links](/images/guide/synthexa-16.png)
+![Edit links](/images/guide/synthexa-16@2x.png)
 
 Footer links are text elements, not components. To edit them:
 
@@ -82,7 +82,7 @@ Footer links are text elements, not components. To edit them:
 3. Find the **Content** field
 4. Edit the text to change what visitors see
 
-![Footer Links](/images/guide/synthexa-17.png)
+![Footer Links](/images/guide/synthexa-17@2x.png)
 
 ### Logo
 
@@ -90,23 +90,23 @@ To replace the SYNTHEXA logo with your own:
 
 1. In the left sidebar, click **Assets** → **Components** → **Navigation** → **Logo**
 
-![Logo Left Panel](/images/guide/synthexa-19.png)
+![Logo Left Panel](/images/guide/synthexa-19@2x.png)
 
 2. Switch to the **Layers** tab in the left panel
 3. In the layers tree, find and select **Default** > **Vector**
 
-![Logo Left Panel Layers](/images/guide/synthexa-20.png)
+![Logo Left Panel Layers](/images/guide/synthexa-20@2x.png)
 
 4. Open the **Properties panel** (right sidebar)
 5. Locate the **Logo** section (**Vector Set** name) and click **Edit**
 
-![Vector Set Edit](/images/guide/synthexa-21.png)
+![Vector Set Edit](/images/guide/synthexa-21@2x.png)
 
 6. Inside the Vector Set, you can:
    - Replace the existing Synthexa text/logo with your own SVG logo
    - Or create a new vector (click +Add) and insert your custom SVG logo
 
-![Vector Set Edit](/images/guide/synthexa-22.png)
+![Vector Set Edit](/images/guide/synthexa-22@2x.png)
 
 **Inserting your SVG logo onto the canvas:**
 - **Method 1:** Go to **File** → **Upload Image** and select your SVG file
@@ -131,7 +131,7 @@ To replace the SYNTHEXA logo with your own:
   5. **Change button variant** — Find the **Variant** field to change the button style
   6. **Toggle visibility** — Use **Show Label** and **Show Icon** to hide/show elements
 
-![CTA Button](/images/guide/synthexa-18.png)
+![CTA Button](/images/guide/synthexa-18@2x.png)
 
 
 
@@ -165,7 +165,7 @@ SYNTHEXA includes **Light and Dark color schemes** that users can toggle on your
 
 Your site visitors can toggle between Light and Dark modes using the **theme toggle button** in the navigation bar.
 
-![Theme Toggle Button](/images/guide/synthexa-01.png)
+![Theme Toggle Button](/images/guide/synthexa-01@2x.png)
 
 Simply click the toggle icon to switch between modes. The preference is saved in their browser, so they'll see their chosen theme each time they visit.
 
@@ -195,7 +195,7 @@ If you want to remove the theme toggle from the navigation bar and let the theme
 4. In the right sidebar, locate **Theme Switcher** setting
 5. Set it to **Off**
 
-![Theme Switcher Setting](/images/guide/synthexa-02.png)
+![Theme Switcher Setting](/images/guide/synthexa-02@2x.png)
 
 The theme will now automatically switch based on the user's operating system preferences (Light or Dark mode).
 

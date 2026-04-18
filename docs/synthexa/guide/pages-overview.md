@@ -2,7 +2,7 @@
 
 SYNTHEXA comes with **12 fully designed pages** ready for customization.
 
-![Pages](/images/guide/synthexa-11.png)
+![Pages](/images/guide/synthexa-11@2x.png)
 
 ## Static Pages
 

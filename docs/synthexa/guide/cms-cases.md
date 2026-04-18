@@ -59,12 +59,12 @@ The Terminal Snapshot field displays a branded terminal component showing compan
 1. Click the **+Insert** button in the Terminal Snapshot rich text field
 2. In the popup window, navigate to **Terminal** > **TerminalCases** and select the component
 
-![Add TerminalCase](/images/guide/synthexa-24.png)
+![Add TerminalCase](/images/guide/synthexa-24@2x.png)
 
 3. Once added to the editor, click on the terminal component
 4. In the popup menu, select the company variant (e.g., "AcmeCorpCase", "LuckycharmCase")
 
-![Add TerminalCase](/images/guide/synthexa-25.png)
+![Add TerminalCase](/images/guide/synthexa-25@2x.png)
 
 5. The variant displays with pre-configured company info, metrics, and branding
 

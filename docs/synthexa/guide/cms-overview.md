@@ -43,7 +43,7 @@ For other collections (Cases, Legal, Pricing), there are no dependencies.
 
 1. Open the **CMS panel** (left sidebar)
 
-![CMS Panel](/images/guide/synthexa-23.png)
+![CMS Panel](/images/guide/synthexa-23@2x.png)
 
 2. Select a collection (e.g., Blog)
 3. Click **New Item**

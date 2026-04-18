@@ -1,6 +1,6 @@
 # TerminalDashboard
 
-![Terminal Component](/images/guide/synthexa-37.png)
+![Terminal Component](/images/guide/synthexa-37@2x.png)
 
 The signature component of SYNTHEXA — a fully animated multi-panel data visualization widget with a CRT terminal aesthetic.
 
@@ -19,7 +19,7 @@ The TerminalDashboard is a **code component** that renders:
 
 ## Property Controls
 
-![Terminal Properties](/images/guide/synthexa-39.png)
+![Terminal Properties](/images/guide/synthexa-39@2x.png)
 
 ### Appearance
 
@@ -60,7 +60,7 @@ Each Panel (1–6) has common properties:
 
 ### Terminal
 
-![Terminal Panel](/images/guide/synthexa-38.png)
+![Terminal Panel](/images/guide/synthexa-38@2x.png)
 
 Animated typewriter with input/output lines.
 
@@ -70,7 +70,7 @@ Animated typewriter with input/output lines.
 | **Script** | Text | Multiline terminal script (overrides Lines if provided) |
 | **Lines** | Array | Individual line items (used only if Script is empty) |
 
-![Terminal Panel Prop](/images/guide/synthexa-40.png)
+![Terminal Panel Prop](/images/guide/synthexa-40@2x.png)
 
 **Script format:**
 - Lines starting with `> ` (greater-than symbol) render as **input** (Primary color)
@@ -80,16 +80,16 @@ Animated typewriter with input/output lines.
 **Lines array:**
 - Use when Script is empty to have granular control over individual lines
 
-![Lines array](/images/guide/synthexa-44.png)
+![Lines array](/images/guide/synthexa-44@2x.png)
 
 - Each line item can be either:
   - **Text** — Terminal text line (same `>` prefix rules apply)
   
-  ![Terminal Panel Prop Text](/images/guide/synthexa-42.png)
+  ![Terminal Panel Prop Text](/images/guide/synthexa-42@2x.png)
 
   - **SVG** — Inline SVG graphic (useful for rendering graphics mid-animation)
 
-  ![Terminal Panel Prop SVG](/images/guide/synthexa-43.png)
+  ![Terminal Panel Prop SVG](/images/guide/synthexa-43@2x.png)
 
   
 
@@ -105,86 +105,86 @@ Connecting to 4 systems...
   [✓] Chat: Slack
 Automation complete // 4h saved this month
 ```
-![Terminal Panel Prop](/images/guide/synthexa-41.png)
+![Terminal Panel Prop](/images/guide/synthexa-41@2x.png)
 
 ### Sparkline
 
 Canvas chart for showing trends.
 
-![Sparkline](/images/guide/synthexa-45.png)
+![Sparkline](/images/guide/synthexa-45@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Sparklines** | Array | Collection of sparkline data series |
 
-![Sparkline](/images/guide/synthexa-46.png)
+![Sparkline](/images/guide/synthexa-46@2x.png)
 
 Each sparkline item contains:
 - **Label** — Legend label for the line
 - **Values** — Array of numbers (0–100) representing the trend (add/remove values with sliders)
 
-![Values](/images/guide/synthexa-47.png)
+![Values](/images/guide/synthexa-47@2x.png)
 
 ### Bars
 
 Animated horizontal bar chart for comparing percentages.
 
-![Bars](/images/guide/synthexa-48.png)
+![Bars](/images/guide/synthexa-48@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Bars** | Array | Collection of bar items|
 
-![Bars Prop](/images/guide/synthexa-49.png)
+![Bars Prop](/images/guide/synthexa-49@2x.png)
 
 Each bar item contains:
 - **Label** — Bar label
 - **Value** — Numeric value (0–100 for percentage display)
 
-![Bars Item Prop](/images/guide/synthexa-50.png)
+![Bars Item Prop](/images/guide/synthexa-50@2x.png)
 
 ### Status
 
 Live status list with pulsing indicators.
 
-![Status](/images/guide/synthexa-51.png)
+![Status](/images/guide/synthexa-51@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Status Items** | Array | Collection of status indicators |
 
-![Status Prop](/images/guide/synthexa-52.png)
+![Status Prop](/images/guide/synthexa-52@2x.png)
 
 Each status item contains:
 - **Label** — Status label
 - **State** — Status state (Active, Idle, Running, Error)
 
-![Status Prop State](/images/guide/synthexa-53.png)
+![Status Prop State](/images/guide/synthexa-53@2x.png)
 
 ### Metrics
 
 Key metric tiles with label + value.
 
-![Metrics](/images/guide/synthexa-54.png)
+![Metrics](/images/guide/synthexa-54@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
 | **Metrics** | Array | Collection of metric items |
 | **Columns** | Slider | Number of columns (1–6) for layout |
 
-![Metrics Prop](/images/guide/synthexa-55.png)
+![Metrics Prop](/images/guide/synthexa-55@2x.png)
 
 Each metric item contains:
 - **Label** — Metric label (e.g., "Processes running")
 - **Value** — Metric value (e.g., "247" or "99.97%")
 
-![Metrics Item Prop](/images/guide/synthexa-56.png)
+![Metrics Item Prop](/images/guide/synthexa-56@2x.png)
 
 ### Ring
 
 Animated circular gauge. Single and Dual mode.
 
-![Ring](/images/guide/synthexa-57.png)
+![Ring](/images/guide/synthexa-57@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
@@ -194,13 +194,13 @@ Animated circular gauge. Single and Dual mode.
 | **Ring 2 %** | Slider | Second ring percentage (0–100, Dual mode only) |
 | **Ring 2 Label** | Text | Label for second ring (Dual mode only) |
 
-![Ring Prop](/images/guide/synthexa-58.png)
+![Ring Prop](/images/guide/synthexa-58@2x.png)
 
 ### SVG
 
 Render custom SVG graphics with optional color theming.
 
-![SVG](/images/guide/synthexa-59.png)
+![SVG](/images/guide/synthexa-59@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
@@ -209,7 +209,7 @@ Render custom SVG graphics with optional color theming.
 | **Scale** | Slider | SVG scale factor (0.1–5) |
 | **Padding** | Slider | Padding around SVG (0–32px) |
 
-![SVG Prop](/images/guide/synthexa-60.png)
+![SVG Prop](/images/guide/synthexa-60@2x.png)
 
 **Tips:**
 - Paste complete `<svg>` tags into SVG Code
@@ -227,7 +227,7 @@ Empty panel — use to disable a slot or add intentional whitespace.
 
 Automatically arranges panels based on count and aspect ratios.
 
-![Auto](/images/guide/synthexa-62.png)
+![Auto](/images/guide/synthexa-62@2x.png)
 
 ### Stacked
 
@@ -307,7 +307,7 @@ The sum of the split numbers must equal the total **Panels** count set above. Fo
 - `2|4` — 2 panels on left, 4 on right (2+4=6)
 - `3|2|1` — 3 panels left, 2 middle, 1 right (3+2+1=6)
 
-![Custom Split](/images/guide/synthexa-63.png)
+![Custom Split](/images/guide/synthexa-63@2x.png)
 
 ## Colors
 

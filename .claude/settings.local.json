@@ -52,7 +52,9 @@
       "Bash(npm uninstall:*)",
       "WebFetch(domain:www.notion.so)",
       "mcp__Claude_in_Chrome__get_page_text",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(identify /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/images/guide/synthexa-39.png)",
+      "Bash(find /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs -name \"*.md\" -type f -exec grep -l \"synthexa-[0-9]*.png\" {} \\\\;)"
     ]
   }
 }

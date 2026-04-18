@@ -81,7 +81,7 @@ Click to open the style editor. You can change:
 - **Line** — Space between lines
 - **Letter** — Space between characters
 
-![Text changing](/images/guide/synthexa-36.png)
+![Text changing](/images/guide/synthexa-36@2x.png)
 
 ### Step 4: Apply & Publish
 

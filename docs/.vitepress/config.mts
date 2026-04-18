@@ -39,6 +39,12 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
+      /* 2x resolution images - display at 50% (logical size) */
+      img[src*="@2x"] {
+        width: 50% !important;
+        height: auto !important;
+        max-width: 100% !important;
+      }
     `]
   ],
 

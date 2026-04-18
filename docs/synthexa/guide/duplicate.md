@@ -6,7 +6,7 @@ To start using **SYNTHEXA**, you need to create a personal copy of the template 
 
 Open the SYNTHEXA template page in Framer. You will see the template preview and a **Copy** button below it.
 
-![SYNTHEXA Template Preview](/images/guide/synthexa-03.png)
+![SYNTHEXA Template Preview](/images/guide/synthexa-03@2x.png)
 
 ## Step 2 — Click "Copy"
 
@@ -18,7 +18,7 @@ Framer will automatically create a copy of the project inside your workspace.
 
 Once the copy is created, the template will appear in your **Framer dashboard** as a new project.
 
-![SYNTHEXA Template Preview](/images/guide/synthexa-05.png)
+![SYNTHEXA Template Preview](/images/guide/synthexa-05@2x.png)
 
 Open it to start editing.
 

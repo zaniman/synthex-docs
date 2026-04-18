@@ -8,7 +8,7 @@ Step-by-step guide to creating and editing CMS entries.
 
 In the Framer editor, go to the **left sidebar** and click the **CMS icon** (or find the CMS panel tab).
 
-![CMS Panel](/images/guide/synthexa-23.png)
+![CMS Panel](/images/guide/synthexa-23@2x.png)
 
 ### Step 2: Select Your Collection
 
@@ -21,7 +21,7 @@ Choose the collection you want to add to:
 - Blog Authors
 - Legal
 
-![CMS Collections](/images/guide/synthexa-31.png)
+![CMS Collections](/images/guide/synthexa-31@2x.png)
 
 ### Step 3: Click "New Item"
 
@@ -53,7 +53,7 @@ Instead of creating from scratch, you can duplicate an existing entry to save ti
 1. **Open CMS panel** → select collection
 2. **Right-click** the item you want to copy
 
-![CMS Panel](/images/guide/synthexa-32.png)
+![CMS Panel](/images/guide/synthexa-32@2x.png)
 
 
 3. Select **Duplicate** from the menu

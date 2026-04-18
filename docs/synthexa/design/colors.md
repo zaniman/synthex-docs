@@ -221,7 +221,7 @@ Look for the token you want to change:
 
 Click the color swatch to open the color picker.
 
-![Сolor changing](/images/guide/synthexa-33.png)
+![Сolor changing](/images/guide/synthexa-33@2x.png)
 
 ### Step 4: Choose Your Color
 
@@ -259,7 +259,7 @@ Test your color changes on both light and dark modes before publishing.
 
 In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between light and dark theme preview while you edit.
 
-![Сolor theme toggle](/images/guide/synthexa-35.png)
+![Сolor theme toggle](/images/guide/synthexa-35@2x.png)
 
 :::
 
@@ -273,7 +273,7 @@ Drive the retro CRT aesthetic. Used in code components (TerminalDashboard, ROICa
 - `/Terminal/TerminalSecondary` — Secondary accent for contrast
 - `/Terminal/TerminalLines` — Grid lines and borders in terminal elements
 
-![Terminal Colors](/images/guide/synthexa-61.png)
+![Terminal Colors](/images/guide/synthexa-61@2x.png)
 
 ### Brand Group
 

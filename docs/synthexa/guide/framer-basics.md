@@ -4,7 +4,7 @@ Key areas of the Framer editor you'll use to customize SYNTHEXA.
 
 ## Pages Panel (Left Sidebar)
 
-![Pages](/images/guide/synthexa-06.png)
+![Pages](/images/guide/synthexa-06@2x.png)
 
 Displays all pages in your project. Use this to navigate between:
 
@@ -15,7 +15,7 @@ Click any page to open it for editing.
 
 ## CMS Collections
 
-![CMS](/images/guide/synthexa-07.png)
+![CMS](/images/guide/synthexa-07@2x.png)
 
 Manage dynamic content without touching the design:
 
@@ -29,7 +29,7 @@ Create Authors and Categories BEFORE Blog posts, since blog posts reference them
 
 ## Color Styles (Assets Panel)
 
-![Color Styles](/images/guide/synthexa-08.png)
+![Color Styles](/images/guide/synthexa-08@2x.png)
 
 Design tokens that control colors across your entire site.
 
@@ -44,7 +44,7 @@ Changing a color token updates EVERY element using it across the entire site ins
 
 ## Text Styles (Assets Panel)
 
-![Text Styles](/images/guide/synthexa-09.png)
+![Text Styles](/images/guide/synthexa-09@2x.png)
 
 Global typography definitions. Update once, change everywhere.
 
@@ -56,7 +56,7 @@ Global typography definitions. Update once, change everywhere.
 
 Reusable design and code components. Click **Assets** → **Components** to browse:
 
-![Components](/images/guide/synthexa-10.png)
+![Components](/images/guide/synthexa-10@2x.png)
 
 - **Framer components** — Fully editable design elements
 - **Code components** — Interactive elements (TerminalDashboard, ROICalculator, NotFoundGame)
