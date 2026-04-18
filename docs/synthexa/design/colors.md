@@ -273,6 +273,8 @@ Drive the retro CRT aesthetic. Used in code components (TerminalDashboard, ROICa
 - `/Terminal/TerminalSecondary` — Secondary accent for contrast
 - `/Terminal/TerminalLines` — Grid lines and borders in terminal elements
 
+![Terminal Colors](/images/guide/synthexa-61.png)
+
 ### Brand Group
 
 Global brand identity colors used for broader site accents like navigation states, badges, and links:

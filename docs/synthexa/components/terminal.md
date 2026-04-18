@@ -331,7 +331,7 @@ Typewriter animation plays once on component mount, then freezes and doesn't rep
 ### Fade
 
 Fade-in animation when component mounts:
-- **On** — Component fades in over 0.8 seconds
+- **On** — Component fades in with customizable duration (default 200ms, range 50–2000ms)
 - **Off** — Component appears instantly
 
 ## Panel Configuration Format
