@@ -45,11 +45,6 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'Pixometra Docs',
 
-    banner: {
-      dismissible: true,
-      content: '📝 Documentation in Progress — This documentation may contain inaccuracies.'
-    },
-
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Synthexa', link: '/synthexa/', activeMatch: '/synthexa/' },
