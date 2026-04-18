@@ -44,11 +44,8 @@ export default defineConfig({
         display: inline-block;
       }
       .vp-doc img {
-        max-width: 600px;
+        max-width: 100%;
         height: auto;
-      }
-      .markdown-body img {
-        max-width: 600px;
       }
       /* 2x images handled via srcset in markdown plugin */
     `]
