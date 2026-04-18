@@ -68,7 +68,7 @@ Animated typewriter with input/output lines.
 |----------|------|-------------|
 | **Speed** | Slider | Animation speed (1 = normal, higher = faster) |
 | **Script** | Text | Multiline terminal script (overrides Lines if provided) |
-| **Lines** | Array | Individual lines (used only if Script is empty) |
+| **Lines** | Array | Individual line items (used only if Script is empty) |
 
 ![Terminal Panel Prop](/images/guide/synthexa-40.png)
 
@@ -77,7 +77,13 @@ Animated typewriter with input/output lines.
 - All other lines render as **output** (Secondary color)
 - When Script is filled, it **overrides** the Lines array configuration
 
-**Note:** Use either Script (for readability) OR Lines array (for programmatic control), not both.
+**Lines array:**
+- Use when Script is empty to have granular control over individual lines
+- Each line item can be either:
+  - **Text** — Terminal text line (same `>` prefix rules apply)
+  - **SVG** — Inline SVG graphic (useful for rendering graphics mid-animation)
+
+**Note:** Use either Script (for simple text input) OR Lines array (for granular/mixed text+SVG control), not both.
 
 **Example:**
 ```
