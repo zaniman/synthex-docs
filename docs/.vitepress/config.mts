@@ -1,4 +1,24 @@
 import { defineConfig } from 'vitepress'
+import fs from 'fs'
+import path from 'path'
+
+function getImageWidth(src: string): number | null {
+  try {
+    const filePath = path.join(process.cwd(), 'docs/public', src)
+    const altPath = path.join(process.cwd(), 'docs', src)
+    const imgPath = fs.existsSync(filePath) ? filePath : fs.existsSync(altPath) ? altPath : null
+    if (!imgPath) return null
+
+    const buffer = fs.readFileSync(imgPath)
+    // PNG: width is at bytes 16-19
+    if (buffer[0] === 0x89 && buffer[1] === 0x50) {
+      return buffer.readUInt32BE(16)
+    }
+    return null
+  } catch {
+    return null
+  }
+}
 
 export default defineConfig({
   title: "Pixometra Documentation",
@@ -44,6 +64,10 @@ export default defineConfig({
         const src = token.attrGet('src')
         if (src && src.includes('@2x')) {
           token.attrSet('srcset', `${src} 2x`)
+          const fileWidth = getImageWidth(src)
+          if (fileWidth) {
+            token.attrSet('width', String(Math.round(fileWidth / 2)))
+          }
         }
         return defaultRender(tokens, idx, options, env, self)
       }
