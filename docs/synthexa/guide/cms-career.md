@@ -1,6 +1,6 @@
 # Career Collection (Open Roles)
 
-The Open Roles collection powers your `/career` page with job listings.
+The Open Roles collection powers your `/careers` page with job listings.
 
 ## Fields
 
@@ -75,7 +75,7 @@ We're looking for a Senior Automation Engineer to join our growing team...
 
 ## Auto-Generated Pages
 
-Once saved, a new job page is created at `/career/:slug` with:
+Once saved, a new job page is created at `/careers/:slug` with:
 - Full job description
 - Location and employment type
 - Application CTA

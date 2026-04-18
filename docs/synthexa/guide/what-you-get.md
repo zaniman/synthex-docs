@@ -13,7 +13,7 @@ A complete, **production-ready Framer project** you can duplicate, edit, and pub
 | **Blog** | `/blog` | Article listing with category filtering. Includes 9 sample articles. |
 | **Blog Post** | `/blog/:slug` | Auto-generated detail page for each blog article. |
 | **Careers** | `/careers` | Open positions listing powered by Open Roles CMS. For recruiting new team members. |
-| **Job Detail** | `/career/:slug` | Auto-generated job detail page with application form. |
+| **Job Detail** | `/careers/:slug` | Auto-generated job detail page with application form. |
 | **About** | `/about` | Agency story, team members, values, and company metrics. |
 | **Contact** | `/contact` | Contact form and agency details. Connects to your email. |
 | **Legal Pages** | `/legal/:slug` | Auto-generated pages for Privacy Policy, Terms of Service, and other legal documents. |

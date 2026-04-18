@@ -10,7 +10,7 @@ SYNTHEXA uses **Framer CMS** to power all dynamic content. Adding an item to a C
 | **Blog Authors** | Author cards on blog posts | Referenced in Blog items |
 | **Blog Categories** | Blog filtering and taxonomy | Referenced in Blog items |
 | **Cases** | /cases, homepage featured section | `/cases/:slug` pages |
-| **Open Roles** | /career page | `/career/:slug` pages |
+| **Open Roles** | /careers page | `/careers/:slug` pages |
 | **Pricing** | /pricing feature comparison table | Feature rows |
 | **Legal** | Footer links | `/legal/:slug` pages |
 
