@@ -78,9 +78,8 @@ Click to open the style editor. You can change:
 - **Size** — Adjust point size
 - **Weight** — Regular, SemiBold, Bold
 - **Color** — Use a color token or custom color
-- **Line Height** — Space between lines
-- **Letter Spacing** — Space between characters
-- **Alignment** — Left, center, right, justify
+- **Line** — Space between lines
+- **Letter** — Space between characters
 
 ![Text changing](/images/guide/synthexa-36.png)
 

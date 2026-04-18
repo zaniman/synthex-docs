@@ -146,20 +146,6 @@ Popular import plugins:
 - **Google Sheets** — Sync CMS entries directly from Google Sheets
 - **Notion** — Pull content from your Notion database
 
-## Troubleshooting
-
-**Changes not showing up?**
-- Make sure you clicked **Save** and then **Publish**
-- Refresh your browser to see live changes
-
-**Can't edit a field?**
-- Check if the field is required but empty
-- Some fields may be locked if they're referenced elsewhere
-
-**Image not uploading?**
-- Make sure the file is under 25MB
-- Try a different image format (JPG, PNG, WebP)
-
 ## Next Steps
 
 → [Blog Collection](/synthexa/guide/cms-blog)

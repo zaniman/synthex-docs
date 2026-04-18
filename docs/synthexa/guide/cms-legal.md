@@ -95,7 +95,7 @@ When you create a new legal document, add a corresponding link in the footer:
 6. In the **Slug** field, change it to match your new legal document's slug (e.g., if you created "Cookie Policy" in CMS, the slug will be something like `cookie-policy`)
 7. Scroll down to the **Text** section
 8. In the **Content** field, change the link text to your new document name (e.g., "Cookie Policy")
-9. Save and publish
+9. Publish
 
 The new legal document link now appears in the footer and directs to `/legal/:slug`.
 

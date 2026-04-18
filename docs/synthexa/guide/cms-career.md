@@ -85,8 +85,7 @@ Use these headings in the **Details** field to organize your job posts:
 Once saved, a new job page is created at `/careers/:slug` with:
 - Full job description
 - Location and employment type
-- Application CTA
-- Navigation to other open roles
+- Application form
 
 ## Next Steps
 
