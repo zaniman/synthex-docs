@@ -133,6 +133,7 @@ export default defineConfig({
                 { text: 'CardTestimonial', link: '/synthexa/components/card-testimonial' },
                 { text: 'CardPricing', link: '/synthexa/components/card-pricing' },
                 { text: 'CardFAQ', link: '/synthexa/components/card-faq' },
+                { text: 'CardTeam', link: '/synthexa/components/card-team' },
               ]
             },
             {
@@ -154,6 +155,11 @@ export default defineConfig({
               text: 'Utility Components',
               items: [
                 { text: 'ComparisonTable', link: '/synthexa/components/comparison-table' },
+                { text: 'UserPic', link: '/synthexa/components/user-pic' },
+                { text: 'CompanyMetric', link: '/synthexa/components/company-metric' },
+                { text: 'BadgeAnnounce', link: '/synthexa/components/badge-announce' },
+                { text: 'SectionPrefix', link: '/synthexa/components/section-prefix' },
+                { text: 'TerminalEffects', link: '/synthexa/components/terminal-effects' },
               ]
             },
             { text: 'Other Components', link: '/synthexa/components/other' },
