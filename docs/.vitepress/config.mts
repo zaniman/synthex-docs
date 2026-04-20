@@ -166,14 +166,8 @@ export default defineConfig({
             },
           ]
         },
-        {
-          text: 'Publishing',
-          items: [
-            { text: 'Publish Your Site', link: '/synthexa/guide/publish' },
-            { text: 'Connect Domain', link: '/synthexa/guide/domain' },
-            { text: 'SEO Settings', link: '/synthexa/guide/seo' },
-          ]
-        },
+        { text: 'Publish Your Site', link: '/synthexa/guide/publish' },
+        { text: 'Contact', link: '/synthexa/guide/support' },
       ]
     },
 

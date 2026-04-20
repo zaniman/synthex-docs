@@ -1,36 +1,6 @@
 # Publish Your Site
 
-Get your SYNTHEXA site live in three simple steps.
-
-## Before You Publish
-
-Make sure to review and prepare:
-
-### ✅ Content Review
-
-- [ ] Replace all placeholder text with your content
-- [ ] Update all images with your own
-- [ ] Check the homepage for typos
-- [ ] Verify all links work correctly
-
-### ✅ Branding
-
-- [ ] Update `/Terminal/TerminalPrimary` to your brand color
-- [ ] Update `/Brand/BrandPrimary` if different
-- [ ] Replace logo with your own
-- [ ] Update company name in navigation and footer
-
-### ✅ Legal & Settings
-
-- [ ] Replace `legal@synthexa.com` with your contact email in legal documents
-- [ ] Update privacy policy and terms of service
-- [ ] Add your real company details in footer
-
-### ✅ CMS Content
-
-- [ ] Add at least 2–3 blog posts
-- [ ] Add at least 1–2 case studies
-- [ ] Fill out the team page with real information
+Get your site live in three simple steps.
 
 ## Publishing Steps
 
@@ -45,12 +15,16 @@ Before clicking Publish:
 
 ### Step 2: Set Site Metadata
 
-Go to **Site Settings** → **SEO**:
+Go to **Site Settings** → **General**:
 
 - **Site Title:** "Your Agency Name — AI Automation Agency"
 - **Meta Description:** Brief description (150–160 characters)
-- **OG Image:** 1200×630px screenshot of your homepage
-- **Favicon:** Your company logo (32×32px or SVG)
+- **Social Preview Image:** 1200×630px
+- **Favicon:** 32×32px
+
+![General](/images/guide/synthexa-117@2x.png)
+
+![General](/images/guide/synthexa-118@2x.png)
 
 ### Step 3: Click Publish
 
@@ -66,21 +40,25 @@ Your site is **live immediately** at something like:
 https://your-project-name.framer.app
 ```
 
-## After Publishing
+## Connecting a Custom Domain
 
-Once live, you can:
+To use your own domain instead of the Framer subdomain:
 
-- **Share the link** with clients, team, stakeholders
-- **Continue editing** — Changes go live on next Publish
-- **Connect a domain** — Add your own custom domain (see next section)
-- **Monitor traffic** — Framer provides basic analytics
+1. Open **Site Settings**.
+2. Navigate to **Domains**.
+3. Add your custom domain.
+4. Follow the DNS instructions provided by Framer: https://www.framer.com/help/articles/how-to-connect-a-custom-domain/
 
-:::tip
-Publishing takes 30–60 seconds. Refresh the URL after publishing to see your live site.
-:::
+Once connected, your site will be accessible through your custom domain.
 
-## Next Steps
+## Updating Your Site
 
-→ [Connect a Custom Domain](/synthexa/guide/domain)
+After publishing, you can make changes to your site at any time. Simply **republish** for those changes to appear on the live website.
 
-→ [SEO Settings](/synthexa/guide/seo)
+To republish:
+1. Make your updates in the Framer editor
+2. Click **Publish** in the top-right corner
+
+Your changes will be deployed immediately.
+
+
