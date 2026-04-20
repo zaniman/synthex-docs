@@ -2,12 +2,14 @@
 
 A comprehensive pricing section component that displays tiered pricing plans with monthly/yearly toggle, customizable features, and responsive variants for desktop and mobile.
 
+![CardPricing](/images/guide/synthexa-89@2x.png)
+
 ## Overview
 
 **PricingPlans** is the main section component that includes:
 - Section header with title and description
 - Monthly/Yearly toggle switch
-- Three pricing plan cards (Plan1, Plan2, Plan3)
+- Three pricing plan cards
 - Responsive variants for desktop and mobile
 
 **CardPricing** is an individual pricing plan card with:
@@ -15,7 +17,6 @@ A comprehensive pricing section component that displays tiered pricing plans wit
 - Monthly and yearly pricing
 - Feature list with inclusion indicators
 - CTA button with custom label and icon
-- Link to contact or signup page
 
 ## How to Edit
 
@@ -33,6 +34,8 @@ To customize the pricing section header and layout:
    - **Background Pattern** — Toggle background pattern visibility
    - **Variant** — Switch between Yearly/Monthly/YearlyMobile/MonthlyMobile
 
+   ![Edit Section-Level Properties](/images/guide/synthexa-90@2x.png)
+
 ### Edit with Edit Component
 
 To access all section variants:
@@ -45,22 +48,27 @@ To access all section variants:
    - **YearlyMobile** — Mobile yearly view
    - **MonthlyMobile** — Mobile monthly view
 
-**Important:** Always make pricing changes in the **Yearly | Primary** variant. Changes automatically apply to all other variants.
+:::warning
+**Always make pricing changes in the Yearly | Primary variant.** Changes automatically apply to all other variants (Monthly, YearlyMobile, MonthlyMobile).
+:::
 
-## Property Controls
+## Editing Pricing Cards
 
-### Section Level (PricingPlans)
+### Update Plan Information
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| **Prefix** | String | "//" | Visual prefix before section label |
-| **Section Label** | String | "pricing" | Section identifier text |
-| **Title** | String | "Start saving this month" | Main section heading |
-| **Description** | String | "Choose a setup that fits..." | Subtitle describing pricing |
-| **Background Pattern** | Toggle | Yes | Show background pattern |
-| **Variant** | Dropdown | Yearly | Select which variant to display (Yearly / Monthly / YearlyMobile / MonthlyMobile) |
+To edit each plan:
 
-### Card Level (CardPricing)
+1. **Important:** Always edit in the **Yearly | Primary** variant first
+2. Click on the plan card (or select Plan1/Plan2/Plan3 in **Layers**)
+3. In **Properties**, update:
+   - **Title** — Plan name
+   - **Description** — Plan description
+   - **Monthly Price** / **Yearly Price** — Adjust with slider or type number
+   - **Monthly Text** / **Yearly Text** — Price period text
+   - **Button Label** — CTA text
+   - **Link** — Button destination
+
+![Update Plan Information](/images/guide/synthexa-91@2x.png)
 
 | Property | Type | Description |
 |----------|------|-------------|
@@ -79,22 +87,6 @@ To access all section variants:
 | **Elevated Background** | Toggle | Add subtle background highlight |
 | **Link** | URL | Button link destination (e.g., "/contact") |
 
-## Editing Pricing Cards
-
-### Update Plan Information
-
-To edit Plan1, Plan2, or Plan3:
-
-1. **Important:** Always edit in the **Yearly | Primary** variant first
-2. Click on the plan card (or select Plan1/Plan2/Plan3 in **Layers**)
-3. In **Properties**, update:
-   - **Title** — Plan name
-   - **Description** — Plan description
-   - **Monthly Price** / **Yearly Price** — Adjust with slider or type number
-   - **Monthly Text** / **Yearly Text** — Price period text
-   - **Button Label** — CTA text
-   - **Link** — Button destination
-
 ### Add or Modify Features
 
 Each plan includes 5 feature slots:
@@ -106,6 +98,8 @@ Each plan includes 5 feature slots:
 
 ### Change the Toggle Labels
 
+![Change the Toggle Labels](/images/guide/synthexa-92@2x.png)
+
 To customize "Monthly" / "Yearly" toggle buttons:
 
 1. Click **Edit Component** on PricingPlans
@@ -115,51 +109,33 @@ To customize "Monthly" / "Yearly" toggle buttons:
 5. The toggle width auto-adjusts to fit new text
 6. Changes apply to all variants automatically
 
-## Variants Explained
+![Change the Toggle Labels](/images/guide/synthexa-93@2x.png)
 
-PricingPlans includes responsive variants:
+## Usage
 
-| Variant | Purpose | Display |
-|---------|---------|---------|
-| **Yearly** | Desktop view with yearly pricing default | All 3 plans side-by-side |
-| **Monthly** | Desktop view with monthly pricing default | All 3 plans side-by-side |
-| **YearlyMobile** | Mobile view with yearly pricing | Stacked or carousel |
-| **MonthlyMobile** | Mobile view with monthly pricing | Stacked or carousel |
+CardPricing and PricingPlans are used in two locations:
 
-## Best Practices
+### Homepage Pricing Section
+The main pricing section with 3 plans, monthly/yearly toggle, and feature highlights.
 
-- **Consistent Editing** — Always edit in Yearly | Primary variant to ensure all responsive variants update
-- **Price Formatting** — Keep pricing consistent across plans (same decimal places)
-- **Feature Clarity** — Use clear, benefit-focused feature descriptions
-- **CTA Consistency** — Use consistent button text across plans (or different if intentional)
-- **Link Setup** — Ensure button links point to correct pages (/contact for inquiries, /signup for self-serve)
-- **Toggle Labels** — Keep toggle labels concise (e.g., "Monthly" / "Yearly")
+### Pricing Page (`/pricing`)
+Full pricing page that includes:
+1. **PricingPlans section** — Same 3 plans with toggle and features
+2. **Detailed Features Table** — Complete feature comparison for all plans
+   - Configured via [Pricing CMS Collection](/synthexa/guide/cms-pricing)
+   - Shows detailed feature availability per plan
+   - Includes support tiers, SLA, documentation, and more
 
-## Common Customizations
+## CMS Integration
 
-### Change Pricing for All Plans
+The detailed features table at the bottom of the Pricing page is managed through the Pricing CMS Collection:
 
-1. Edit in Yearly | Primary variant
-2. Update Monthly Price and Yearly Price for Plan1, Plan2, Plan3
-3. Changes auto-apply to all other variants
+1. Each feature in the table is a CMS item
+2. Feature availability (checkmark/X) is controlled per plan
+3. Support tiers and service level details are configured in CMS
+4. Changes in CMS automatically update the pricing page table
 
-### Swap Primary and Secondary Plans
-
-1. Edit plan titles and features
-2. Change button styles (Primary / Secondary) to highlight featured plan
-3. Adjust prices to reflect tier positioning
-
-### Add Custom CTA Text
-
-1. Update **Button Label** for each plan
-2. Examples: "Start Free", "Choose Growth", "Contact Sales"
-3. Adjust button icons if needed (e.g., "Arrow Right" → custom icon)
-
-### Hide or Show Features
-
-1. Toggle **Feature X Included** to Disabled to hide that row
-2. Or update feature text and toggle Enabled/Disabled per plan
-3. Disabled features show with X mark
+To add or modify features in the comparison table, edit the [Pricing Collection](/synthexa/guide/cms-pricing).
 
 ## Next Steps
 
