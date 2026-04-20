@@ -144,6 +144,7 @@ export default defineConfig({
               items: [
                 { text: 'TerminalDashboard', link: '/synthexa/components/terminal' },
                 { text: 'TerminalImage', link: '/synthexa/components/terminal-image' },
+                { text: 'TerminalCases', link: '/synthexa/components/terminal-cases' },
               ]
             },
             { text: 'Other Components', link: '/synthexa/components/other' },

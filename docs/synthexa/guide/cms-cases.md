@@ -69,7 +69,7 @@ The Terminal Snapshot field displays a branded terminal component showing compan
 5. The variant displays with pre-configured company info, metrics, and branding
 
 :::tip
-**Before adding a terminal snapshot:** Make sure you've created a company variant in the TerminalCases component. See [TerminalCases Component](/synthexa/components/other#terminal-cases) for detailed setup instructions.
+**Before adding a terminal snapshot:** Make sure you've created a company variant in the TerminalCases component. See [TerminalCases Component](/synthexa/components/terminal-cases) for detailed setup instructions.
 :::
 
 ## Example Case Study
