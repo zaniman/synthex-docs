@@ -5,7 +5,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:pdf": "press-export-pdf export docs"
   },
   "keywords": [
     "framer",
@@ -17,5 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "vitepress-export-pdf": "^1.0.0"
   }
 }

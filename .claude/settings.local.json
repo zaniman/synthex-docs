@@ -72,7 +72,11 @@
       "Bash(git check-ignore *)",
       "Bash(git status *)",
       "Bash(git lfs *)",
-      "Bash(find docs/images -name \".gitignore\" -exec cat {} \\\\;)"
+      "Bash(find docs/images -name \".gitignore\" -exec cat {} \\\\;)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.product || 'ok'\\)\")",
+      "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.executablePath ? p.executablePath\\(\\) : 'no exec path'\\)\")",
+      "Bash(node -e \"const d=require\\('/dev/stdin'\\);console.log\\(d.version\\)\")"
     ]
   }
 }
