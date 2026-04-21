@@ -17,6 +17,7 @@
   "author": "Pixometra",
   "license": "MIT",
   "devDependencies": {
+    "pdf-lib": "^1.17.1",
     "vitepress": "^1.6.4"
   },
   "dependencies": {

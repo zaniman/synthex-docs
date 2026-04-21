@@ -76,7 +76,8 @@
       "Bash(npm ls *)",
       "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.product || 'ok'\\)\")",
       "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.executablePath ? p.executablePath\\(\\) : 'no exec path'\\)\")",
-      "Bash(node -e \"const d=require\\('/dev/stdin'\\);console.log\\(d.version\\)\")"
+      "Bash(node -e \"const d=require\\('/dev/stdin'\\);console.log\\(d.version\\)\")",
+      "Bash(npm list *)"
     ]
   }
 }
